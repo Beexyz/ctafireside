@@ -1,0 +1,85 @@
+/* CSS for the header section */
+header {
+    background-color:#ffffff ;
+    padding: 20px 20px; /* Padding for top and bottom */
+}
+
+.signup-button a {
+    background-color: #002594;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+.p1 {
+    font-family: impact, sans-serif;
+    font-size: 80px;
+    color:rgb(24, 24, 187)
+}
+
+.p2 {
+    font-size: 20px;
+    background-color: rgb(230, 235, 235);
+    width: 1200px;
+    height: 220px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.line1 {
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    position:absolute;
+    top: 670px;
+    left: 0px
+    border: 2px;
+    padding: 1px;
+}
+
+.p3 {
+    font-size: 22px;
+    top: 785px;
+}
+
+.p4 {
+    font-size: 18px;
+}
+
+.p5 {
+    font-size: 22px;
+}
+
+
+
+.image2 img {
+    height: auto;
+    width: 500px;
+    top: 500px;
+    float: right;
+   
+}
+
+

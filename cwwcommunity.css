@@ -1,0 +1,47 @@
+/* CSS for the header section */
+header {
+    background-color:#ffffff ;
+    padding: 20px 20px; /* Padding for top and bottom */
+}
+
+.signup-button a {
+    background-color: #002594;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+.custom-button {
+    background-color: #002594;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.justified-paragraph {
+    text-align: justify;
+}

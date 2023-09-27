@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CTA Fireside</title>
+    <link rel="stylesheet" href="cwwsignup.css">
+</head>
+<body>
+    <header>
+        <img src="./cropped-LOGO-1.png"width="60px"height="55px">
+   <nav>
+       <ul>
+   <center>
+    <strong>
+  <li><a href="cwwindex.html">HOME</a></li>
+  <li><a href="cwwabout.html">ABOUT</a></li>
+  <li><a href="cwwcommunity.html">COMMUNITY</a></li>
+  <li><a href="cwwjobs.html">JOBS</a></li>
+  <li><a href="cwwcontact.html">CONTACT</a> </li>
+  <li><a href="cwwlogin.html">Log in</a></li>
+   <li class="signup-button"><a href="cwwsignup.html">Sign up</a></li>
+    </strong>
+   </center>
+       </ul> 
+   </nav>  
+</header>
+<center> 
+
+    <div class="login-container">
+       <h1 class="CTA">
+Welcome to "CTAFIRESIDE"
+       </h1>
+       
+        <div class="image-container">
+            <img src="./M & F with Laptop 2.jpg">
+        </div>
+
+        <div class="login-form">
+        <h1>Create an account</h1>
+Please note that email verification is required <br> for signup. Your email will only be used to verify <br>
+your identity for security purposes.
+
+
+            <button class="google-signin-button">
+    <img src="./google logo.png" alt="Google Icon">
+    Sign up with   Google
+            </button>
+            
+            <button class="apple-signin-button">
+    <img src="./apple logo.png" alt="Apple Icon">
+    Sign up with Apple
+            </button>
+
+    <div class="line-container">
+        <div class="line"></div>
+        <div class="or">or</div>
+        <div class="line"></div>
+    </div>
+            <br><br><br>
+        <form action="submit.php" method="POST">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" required placeholder="Email address">
+            <br><br>
+            <label for="password"></label>
+            <div class="password-input">
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <span class="toggle-password" id="toggle-password">
+            <i class="eye-icon"></i>
+            </span>
+            </div>
+            <div class="options">
+                
+                <label>
+                 For a secure password use 8 characters
+                </label>
+               
+            </div>
+            <script src="cwwscript.js"></script>
+            <br><br><br>
+            <button type="submit">Sign up</button>
+            <br>
+            <div>
+                
+                <label>
+                   Already have an account?
+                </label>
+                <a class="loginb" href="cwwlogin.html">login</a>
+            </div>
+
+        </form>
+        </div>
+    </div>
+</center>
+    </body>
+    </html>
